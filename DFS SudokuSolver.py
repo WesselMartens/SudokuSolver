@@ -49,11 +49,7 @@ def solveSudoku(grid):
     else:
         displayGrid(grid)
         return True
-
-# If you run your Python file directly, Python will assign to variable __name__ the string '__main__'
-# then evaluating the condition below will result in a direct execution of the .py file
-# note: by default, the Python interpreter will evaluate this statement if it's not there
-# If you import modules, the statement allows you to control the execution of the modules
+    
 if __name__ == '__main__':
     puzzle = [[3, 0, 6, 5, 0, 8, 4, 0, 0],
               [5, 2, 0, 0, 0, 0, 0, 0, 0],
